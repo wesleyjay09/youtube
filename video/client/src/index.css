@@ -1,0 +1,96 @@
+body{
+    background-color: #181818;
+}
+
+#video-player{
+height: 100%;
+width: 100%;
+}
+#nameOfVideo{
+    color: whitesmoke;
+    font-size: large;
+}
+#numberOfViews{
+    color:#aaa;
+    font-size: medium;
+}
+#videoPlayerContainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 9vh;
+    left: 17vh;
+    width: 134.5vh;
+    height: 75.5vh;
+}
+#videoPlayerFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#videoPlayerFooterLeft{
+    display: flex;
+    flex-direction: column;
+}
+#videoPlayerFooterRight{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#likeAndDislike{
+    color: whitesmoke;
+}
+#videoDescription{
+    color: whitesmoke;
+}
+#innerVideoPlayerFooterRight{
+    display: flex;
+    flex-direction: row;
+}
+#videoMoreBtn{
+    background-color: #181818;
+    color: #aaa;
+    border: 0px;
+    cursor: pointer;
+}
+#videoShareBtn{
+    background-color: #181818;
+    color: #aaa;
+    cursor: pointer;
+    border: 0px;
+}
+#videoSaveBtn{
+    background-color: #181818;
+    color: #aaa;
+    cursor: pointer;
+    border: 0px;
+}
+
+#publisherName{
+    color: whitesmoke;
+    font-size: medium;
+    margin: 0vh;
+    border: 0vh;
+}
+#publisher{
+    display: flex;
+    flex-direction: row;
+}
+#publisherImg{
+    background-color: red;
+    border-radius: 100%;
+    width: 5vh;
+    height: 5vh;
+}
+#publisherSubCount{
+    color: #aaa;
+    margin: 0vh;
+    border: 0vh;
+}
+#publisherInfo{
+    display: flex;
+    flex-direction: column;
+}
+#videoHr{
+    color: #aaa;
+    width: 100%;
+}

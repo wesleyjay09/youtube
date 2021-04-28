@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h3{
+  font-size: 16px;
+}
+
+h4{
+  font-size: 14px;
+}
+
+
+#mainCommentContainer{
+  position: absolute;
+  top: 105vh;
+  left: 6vw;
+}
+
+.text{
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.votes{
+  display:-webkit-flex;
+  display:flex;
+  width: 100%;
+  font-size: 12px;
+  
+  -webkit-flex-direction: row;
+  
+          flex-direction: row;
+
+}
+
+.Upvotes{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  color: #909090 ;
+  
+}
+
+.Downvotes{
+  padding-left: 5px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  color: #909090 ;
+}
+
+.UpVoteCounts{
+  display: -webkit-flex;
+  display: flex;
+  padding-left: 6px;
+  color: #909090 ;
+  font-size: 10px;
+  transform: translateY(-10px);
+}
+.input{
+  width : 68vw;
+  height: 22%;
+  color: #ffffff;
+ border: none;
+ background-color: #181818;
+ border-bottom: 1px solid #ffffff;
+ padding-bottom: 7px;
+}
+.input:focus{
+  outline: none;
+  border-bottom: 1px solid #000000;
+  transition: border-bottom 1s ease;
+}
+
+.btns{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  border-radius: 2px;
+  padding-top: 1vh;
+  margin-left: 58.85vw;
+}
+.post{
+  background-color: #606060;
+  color: #181818;
+  border:none;
+  padding: 8px 15px;
+}
+.cancel{
+  border:5px solid #ffffff;
+  color: #606060;
+  background-color: #181818;
+  border: none;
+  padding-right: 15px;
+}
+
+.container{
+  display: -webkit-flex;
+  display: flex;
+}
+.sortBy{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  color: #909090;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 1rem;
+  
+}
+
+.reply{
+  background-color: #181818;
+  border: none;
+  margin-bottom: -3px;
+  padding-left: 15px;
+}
+
+.ybd{
+  display: -webkit-flex;
+  display: flex;
+  font-size: 12px;
+}
+.toName{
+  border-radius: 50%;
+  
+}
+.toNamelater{
+  padding-right: 10px;
+  padding-top: 17px;
+}

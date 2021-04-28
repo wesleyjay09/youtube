@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23652dbc.css",
+    "main.js": "/static/js/bundle.js",
+    "main.css.map": "/static/css/main.23652dbc.css.map",
+    "main.js.map": "/static/js/bundle.js.map",
+    "static/js/1.94192589.chunk.js": "/static/js/1.94192589.chunk.js",
+    "static/js/1.94192589.chunk.js.map": "/static/js/1.94192589.chunk.js.map",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.23652dbc.css",
+    "static/js/bundle.js"
+  ]
+}

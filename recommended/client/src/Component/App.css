@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+  background-color: #181818;
+}
+
+ .list{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   width: 100%;
+ }
+
+.listItem{
+  display: flex;
+  width: 100%;  
+}
+
+#thumbnail {
+  cursor: pointer;
+  position: relative;
+  padding: 2%;
+  width: 12vw;
+  height: 14vh;
+}
+
+#title {
+  cursor: pointer;
+  color:#ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#totalViews {
+  color: #aaaaaa;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+
+}
+#createdOn{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: #aaaaaa;
+}
+
+#publisher{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: #aaaaaa;
+
+}
+
+.buttons {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:25%;
+}
+
+#allButton{
+  cursor: pointer;
+  border: none;
+  border-radius: 2em;
+  padding:0.3em 1.2em;
+  color: white;
+  background-color: #363636;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+#relatedButton{
+  cursor: pointer;
+  border: none;
+  border-radius: 2em;
+  color: white;
+  background-color: #363636;
+  padding:0.3em 1.2em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+#recentButton{
+  cursor: pointer;
+  border: none;
+  border-radius: 2em;
+  color: white;
+  background-color: #363636;
+  padding:0.3em 1.2em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
