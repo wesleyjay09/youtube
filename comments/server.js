@@ -4,11 +4,11 @@ const cors = require('cors');
 const{Pool}= require('pg')
 const path = require('path')
 const pool = new Pool({
-    user:'Kolby',
+    user:'wesleycoleman',
     password:'',
     host: 'localhost',
     port: 5432,
-    database: 'youtube'
+    database: 'youtube2'
 }) ;
 const app = express();
 const PORT = process.env.Port || 3208;
@@ -17,15 +17,12 @@ const PORT = process.env.Port || 3208;
 app.use(morgan('combined'));
 app.use(express.json());
 app.use(cors());
-//maybe thing for auto redirect to homepage?
+
 app.use(express.static(path.resolve(__dirname, './react-app/build')));
 app.get('/', (req, res) => {
     res.sendFile(path.join(`${__dirname}/react-app/build/index.html`))
 })
-//this is to save 
-//routes
-// //static public 
-// app.use(express)
+
 //create
 app.post('/api/comments', async(req, res)=>{
     try{
@@ -77,7 +74,7 @@ app.put('/api/likes/', async(req, res)=>{
 })
 //error if no route hits
 app.use((req, res)=>{
-    res.status(404).send('Page not found or you went somewhere weird? but it tried at least');
+    res.status(404).send('Page not found...');
 })
 //listen 
 app.listen(PORT, ()=>{console.log('listening on port:' + PORT)})
